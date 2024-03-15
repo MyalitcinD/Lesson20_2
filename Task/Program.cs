@@ -21,10 +21,7 @@ namespace Task
             testDelegate = SphereVolume;
             Console.WriteLine($"Объем шара = { testDelegate?.Invoke(r)}");
             //Console.WriteLine(testDelegate?.Invoke(r)); 
-
             Console.ReadKey();
-
-
         }
 
         static double Circumference(double r)
@@ -33,8 +30,6 @@ namespace Task
         }
         static double CircArea(double r) => Math.PI * r * r;
         static double SphereVolume(double r) => (4.0 / 3 * Math.PI * r * r * r);
-
-
     }
 
 
